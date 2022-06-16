@@ -55,10 +55,10 @@ function App() {
     //   return console.log("Invalid Number");
     // }
     // id = Patient.ids++;
-    
+
     // console.log(Patient.ids);
-    
-    let patient = new Patient( name, gender, age, email, address, mobileNnmber);
+
+    let patient = new Patient(name, gender, age, email, address, mobileNnmber);
     patients.push(patient);
   } else if (n == 2) {
     patientId = prompt("Enter patient Id : ");
@@ -95,4 +95,3 @@ function App() {
 }
 
 module.exports = App;
-

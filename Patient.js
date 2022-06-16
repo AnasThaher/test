@@ -11,7 +11,6 @@ class Patient {
   mobileNnmber;
 
   constructor(name, gender, age, email, address, mobileNnmber) {
-    
     this.id = Patient.ids;
     this.name = name;
     this.gender = gender;

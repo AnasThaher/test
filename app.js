@@ -1,7 +1,4 @@
-
 const App = require("./outPut.js");
-
-
 
 let n = App();
 for (let i = 1; i; i++) {
@@ -11,3 +8,4 @@ for (let i = 1; i; i++) {
     break;
   }
 }
+
